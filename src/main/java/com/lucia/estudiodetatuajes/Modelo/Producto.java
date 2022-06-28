@@ -30,16 +30,6 @@ public class Producto {
     @Column(name = "imagen", nullable = false)
     private String imagen;
 
-
-//    @ManyToMany
-//    @JoinTable(
-//            name = "compra",
-//            joinColumns = {@JoinColumn(name = "producto_id")},
-//            inverseJoinColumns = {@JoinColumn(name = "cliente_id")}
-//    )
-//
-//    private List<Cliente> cliente;
-
     @ManyToOne
     private Cliente cliente;
 

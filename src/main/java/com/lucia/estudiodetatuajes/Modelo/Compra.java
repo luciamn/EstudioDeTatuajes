@@ -1,7 +1,7 @@
 package com.lucia.estudiodetatuajes.Modelo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import io.micrometer.core.annotation.Counted;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
